@@ -1,0 +1,106 @@
+#sales-banner{
+    width: 100%;
+    height: auto;
+}
+  #sales-banner-text{
+      font-size: 8vw;
+      font-weight: bold;
+      font-family: 'Dancing Script', cursive;
+  }
+  #sales-text{
+      text-align: center;
+  }
+#banner-text{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Dancing Script', cursive;
+}
+.contain {
+    position: relative;
+  text-align: center;
+}
+  #special-selling-point {
+    width: 100%;
+    text-align: center;
+  }
+  #special-selling-point-text {
+      color: white;
+      width: 60%;
+  }
+  #special-selling-point-img {
+      width: 40%;
+  }
+  .sales-pictures{
+      width: 100%;
+      height: auto;
+      text-align: center;
+  }
+  #sales-content {
+      width: 50%;
+      padding: 20px;
+      text-align: center;
+  }
+  #rectangle {
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.15s;
+}
+#rectangle:hover {
+    border: 2px solid black;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.70)!important;
+    transition: 0.15s;
+}
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.20)!important;
+}
+#special-photo {
+    width: 100%;
+    height: auto;
+}
+#special-text {
+    width: 60%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#sales-photo {
+    width: 100%;
+    height: auto;
+}
+#special {
+    width: 100%;
+    padding: 20px;
+}
+.resize-fit-center {
+    position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      width: auto;
+      height: 100%;
+  }
+  @media (max-width: 1250px) {
+    #sales-content {
+        width: 100%;
+        text-align: center;
+    }
+    #special-photo {
+        width: 100%;
+    }
+    #special-text {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    #special-selling-point-img {
+        width: 100%;
+    }
+  }
+  .row {
+      margin-right: 0px;
+      margin-left: 0px;
+  }

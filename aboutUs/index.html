@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"></link>
+        <link rel="stylesheet" href="../styles/sales.css"></link>
+        <link rel="stylesheet" href="../styles/landing.css"></link>
+        <link rel="stylesheet" href="../styles/aboutUs.css"></link>
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lobster|Pacifico&display=swap" rel="stylesheet"></link>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"></link>
+        <link href="../styles/social-icons.css" rel="stylesheet"></link>
+        <title>CeraVela</title>
+    </head>
+<body>
+    <!-- Navbar-->
+    <section id="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(255, 228, 182); padding: 0px;">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html"><img src="../resources/images/CeraVela.png" style="width: auto; height: 100px;"></img></a>
+                <button id="nav-dropdown-button"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav" style="margin-left:auto; margin-right:0;">
+                        <li class="nav-item dropdown" style="padding-right: 20px;">
+                            <div class="btn-group">
+                                <a class="btn" id="nav-button" type="button" href="../sales/index.html">FloraVela</a>
+                                <!--<a class="nav-link btn dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>-->
+                            </div>
+                            <!--<div class="dropdown-menu aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="sales/index.html">Subpage 1</a>
+                                <a class="dropdown-item" href="sales/index.html">Subpage 2</a>
+                                <a class="dropdown-item" href="sales/index.html">Subpage 3</a>
+                            </div> -->
+                        </li>
+                        <li class="nav-item dropdown" style="padding-right: 20px;">
+                            <div class="btn-group">
+                                <a class="btn" id="nav-button" type="button" href="#">About Us</a>
+                                <!--<a class="nav-link btn dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a> -->
+                            </div>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="padding: 0px; background-color: rgb(255, 228, 182); border: 1px solid black; border-radius: 10px;">
+                                <a class="dropdown-item" id="dropdown-button" style="margin-bottom: 5px;" href="aboutJA.html">About Junior Achievement</a>
+                                <a class="dropdown-item" id="dropdown-button" href="aboutIGWM.html">About IG Wealth Management</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown"  style="padding-right: 20px;">
+                            <div class="btn-group">
+                                <a class="btn" id="nav-button" type="button" href="../contactUs/index.html">Contact Us</a>
+                                <!--<a class="nav-link btn dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a> -->
+                            </div>
+                            <!--<div class="dropdown-menu aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="contactUs/index.html">Subpage 1</a>
+                                <a class="dropdown-item" href="contactUs/index.html">Subpage 2</a>
+                                <a class="dropdown-item" href="contactUs/index.html">Subpage 3</a>
+                            </div> -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!--Main Content-->
+    <section id="home">
+        <div class="container-fluid px-0 shadow overflow-hidden" id="sales-homepage-banner" style="position: relative;">
+            <picture>
+                <source class="sales-hmpg-banner" id="sales-banner" media="(min-width: 900px)" srcset="../resources/images/company.jpg">
+                <img class="sales-hmpg-banner" id="sales-banner" src="../resources/images/company.jpg" alt="IfItDoesntMatchAnyMedia">
+            </picture>
+            <div style="position:absolute; top:5%; left:0%; height:100%; width:100%;">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="container-fluid text-center" style="width: 950px; height:100%; width:100%;">
+                            <h1 id="sales-banner-text">Meet CeraVela</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="width: 50%; margin: auto; text-align: center;">
+            <h1 id="departments-text">About Us</h1>
+            <p style="text-align: center; padding-top: 10px;">CeraVela is a company consisting of young, driven high school entreprenuers that aim to bring people together through our candles. Our candles are handcrafted with environmentally sustainable, locally sourced materials that comes with an irresistible scent that serve many purposes including reducing stress</p>
+            <p style="text-align: center;">Got any questions?</p>
+            <a href="../contactUs/index.html" type="button" id="buttons">Drop Us a Line</a>
+        </div>
+        <div class="container-fluid">
+            <h1 id="departments-text">Our Team</h1>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <div class="container-fluid" style="text-align: center; padding-top: 30px;">
+                    <div class="btn-group" id="button-group">
+                        <button id="btnClick1" class="switch-buttons">Our Executives</button>
+                        <button id="btnClick2" class="switch-buttons">Our Departments</button>
+                    </div>
+                </div>
+                <div class="container-fluid row" id="execs" style="margin: auto; padding-left: 20px; padding-right: 20px;">
+                    <div id="president">
+                        <div class="shadow row" id="rectangle">
+                            <div id="president-content">
+                                <h1>Gordon Shen</h1>
+                                <p id="exec-title">President</p>
+                                <p id="president-text">
+                                    I'm definitely a tech guy. I love all things technology and I oversee all things about it for our company. My team and I have worked hard to create the website you see right now!
+                                </p>
+                            </div>
+                            <div id="president-photo">
+                                <img style="width: 100%; height: auto;" src="../resources/images/gordo.jpg"></img>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="individual">
+                        <div class="shadow" id="rectangle">
+                            <div class="row" id="exec-content">
+                                <div id="exec-text">
+                                    <h1>Jacob Tam</h1>
+                                    <p id="exec-title">Head of IT</p>
+                                    <p>
+                                        Hi! I'm Jacob! I love all things technology and I oversee all things about it for our company. I love computers and writing programs to solve problems. My team and I have worked hard to create the website you see right now!
+                                    </p>
+                                </div>
+                                <div id="exec-photo-div">
+                                    <img id="exec-photo" src="../resources/images/jacob.jpg"></img>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="individual">
+                        <div class="shadow" id="rectangle">
+                            <div class="row" id="exec-content">
+                                <div id="exec-text">
+                                    <h1>Justin Chung</h1>
+                                    <p id="exec-title">Head of Finance</p>
+                                    <p>
+                                        Hi, my name is Justin and I'm the Head of Finance here at CeraVela. I am responsible for the finance department which records the financial operations and cost/profit ratio for our company. I prepare break-even analysis, and other financial statements that determine overall company growth. 
+                                    </p>
+                                </div>
+                                <div id="exec-photo-div">
+                                    <img id="exec-photo" src="../resources/images/justin.jpg"></img>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="individual">
+                        <div class="shadow" id="rectangle">
+                            <div class="row" id="exec-content">
+                                <div id="exec-text">
+                                    <h1>Kenny Wong</h1>
+                                    <p id="exec-title">Head of Production</p>
+                                    <p>
+                                        Hey, I'm Kenny and I am the VP of Production at CeraVela. I oversee the production of our candles and make sure that they are top quality just for you. The creation of every candles is monitored by either me or my team. On the side, I enjoy playing video games with my friends.
+                                    </p>
+                                </div>
+                                <div id="exec-photo-div">
+                                    <img id="exec-photo" src="../resources/images/kenni.jpg"></img>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="individual">
+                        <div class="shadow" id="rectangle">
+                            <div class="row" id="exec-content">
+                                <div id="exec-text">
+                                    <h1>Nicole Steiner</h1>
+                                    <p id="exec-title">Head of HR</p>
+                                    <p>
+                                        Hello, my name is Nicole and I am the Vice President of Human Resources at Cera Vela. The HR department focuses on employee morale and employee satisfaction through the use of SMART goal setting, incentives, snacks and much more. Outside of Cera Vela you can find me on the slopes or studying. My favourite Cera Vela candle is the Flora Vela, vanilla scented rose!
+                                    </p>
+                                </div>
+                                <div id="exec-photo-div">
+                                    <img id="exec-photo" src="../resources/images/nicole.jpg"></img>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="individual">
+                        <div class="shadow" id="rectangle">
+                            <div class="row" id="exec-content">
+                                <div id="exec-text">
+                                    <h1>Anjali Mital</h1>
+                                    <p id="exec-title">Head of Marketing</p>
+                                    <p>
+                                        Hi! I'm Anjali, the VP of Marketing here at CeraVela. I am responsible for the Marketing Department and I make sure that our company is known to the general public. My team is responsible for the creation of posters and Instragram posts to advertise our company.
+                                    </p>
+                                </div>
+                                <div id="exec-photo-div">
+                                    <img id="exec-photo" src="../resources/images/anjali.jpg"></img>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="individual">
+                        <div class="shadow" id="rectangle">
+                            <div class="row" id="exec-content">
+                                <div id="exec-text">
+                                    <h1>Anaum Osman</h1>
+                                    <p id="exec-title">Head of Sales</p>
+                                    <p>
+                                        Hi, my name is Anaum and I'm the VP of Sales. I oversee the Sales Department here at CeraVela. My team and I track inventory for our company and manage our product sales. I've also taught the company how to do a proper sales pitch in order to sell our product.
+                                    </p>
+                                </div>
+                                <div id="exec-photo-div">
+                                    <img id="exec-photo" src="../resources/images/anaum.jpg"></img>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid row" id="departments" style="margin: auto; padding-left: 20px; padding-right: 20px;">
+                    <div id="president">
+                        <div class="shadow row" id="rectangle">
+                            <div id="president-content">
+                                <h1>Sales Department</h1>
+                                <p id="president-text">
+                                    The Sales Department is in charge of monitoring and tracking any products that may have been sold. 
+                                    They are also responsible for tracking inventory. The Sales Department teaches us how to sell our products and do sales pitches to sell our products. 
+                                    They are essential to any sales that we make.
+                                </p>
+                            </div>
+                            <div id="president-photo">
+                                <img style="width: 100%; height: auto;" src="../resources/images/sales.png"></img>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="president">
+                        <div class="shadow row" id="rectangle">
+                            <div id="president-content">
+                                <h1>Marketing Department</h1>
+                                <p id="president-text">
+                                    The Marketing Department is responsible for making our company known to the general public. 
+                                    They make all our advertisements and posts on Instagram using photo editting and design software. 
+                                    The reason why people know about our company is because of the Marketing Department. 
+                                    They are the reason why our company is known to people.
+                                </p>
+                            </div>
+                            <div id="president-photo">
+                                <img style="width: 100%; height: auto;" src="../resources/images/marketing.jfif"></img>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="president">
+                        <div class="shadow row" id="rectangle">
+                            <div id="president-content">
+                                <h1>Human Resources Department</h1>
+                                <p id="president-text">
+                                    The Human Resources Department is responsible for ensuring that everything is running smoothly in our company relationship wise. 
+                                    If there are any conflicts between two parties, the Human Resources Department helps us resolve that conflict. 
+                                    Once in a while, they improve our employee moral by bringing in food or drinks and giving us time to bond. 
+                                    They allow our company to run smoothly.
+                                </p>
+                            </div>
+                            <div id="president-photo">
+                                <img style="width: 100%; height: auto;" src="../resources/images/hr.jpg"></img>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="president">
+                        <div class="shadow row" id="rectangle">
+                            <div id="president-content">
+                                <h1>Production Department</h1>
+                                <p id="president-text">
+                                    The Product Department is responsible for the making of our products. 
+                                    They ensure that our products are at the highest quality for our valued customers. 
+                                    They have spent a lot of time researching how to make our product top-notch and have patiently taught us what they have learned. 
+                                    They are crucial to ensuring that our product is at the quality that you deserve.
+                                </p>
+                            </div>
+                            <div id="president-photo">
+                                <img style="width: 100%; height: auto;" src="../resources/images/production.jpg"></img>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="president">
+                        <div class="shadow row" id="rectangle">
+                            <div id="president-content">
+                                <h1>Finance Department</h1>
+                                <p id="president-text">
+                                    The Finanace Department is responsible for managing the company's money. 
+                                    They track the company's costs, expenses, and revenue to ensure that we don't lose track of any money. 
+                                    They make sure that the money in the company is properly allocated and they manage our budget efficiently
+                                    The Finanace Department spends lots of time diligently number-crunching to confirm that the numbers that they have are precise. 
+                                    They are vital to keeping the company's funds in check.
+                                </p>
+                            </div>
+                            <div id="president-photo">
+                                <img style="width: 100%; height: auto;" src="../resources/images/finance.jpg"></img>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="president">
+                        <div class="shadow row" id="rectangle">
+                            <div id="president-content">
+                                <h1>Technology Department</h1>
+                                <p id="president-text">
+                                    The Technology Department is responsible for all things technology related.
+                                    They are responsible for setting up and managing a method for communication for our company.
+                                    They also create, monitor, and manage the company's website which is used as a way to market, and eventually sell our products.
+                                    The Technology Department helps company members with any problems they may have when using technology.
+                                    They are necessary for the use of technology within our company.
+                                </p>
+                            </div>
+                            <div id="president-photo">
+                                <img style="width: 100%; height: auto;" src="../resources/images/tech.jpg"></img>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer class="page-footer font-small py-5" style="background-color: rgb(192, 172, 137);">
+        <div class="container-fluid row">
+            <div class="col-1"></div>
+            <div class="row col-2">
+                <div style="padding-right: 10px;">
+                    <a href="https://www.instagram.com/ceravela/" class="fa fa-instagram"></a>
+                </div>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fa fa-youtube"></a>
+            </div>
+            <div class="col-8" style="text-align: end;">
+                @2020 Copyright by CeraVela
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </footer>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/popper/dist/popper.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../scripts/index.js"></script>
+    <script src="../scripts/salesContent.js"></script>
+    <script text="text/javascript">
+        $('#btnClick1').on('click',function(){
+            $('#execs').show();
+            $('#departments').hide();
+      });
+      $('#btnClick2').on('click',function(){
+        $('#departments').show();
+        $('#execs').hide();
+      });
+    </script>
+</body>
+</html>

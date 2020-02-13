@@ -1,0 +1,13 @@
+{
+  "name": "product-website",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "https://gitlab.com/ja-igwm/product-website.git",
+  "author": "omegazherzerd <jacobtam2002@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper": "^1.0.1"
+  }
+}

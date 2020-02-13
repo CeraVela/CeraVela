@@ -1,0 +1,147 @@
+#banner {
+    width: 100%;
+    height: 800px;
+}
+#exec-text{
+    padding: 10px;
+    width: 70%;
+}
+#exec-photo-div {
+    width: 30%;
+    min-width: 100px;
+}
+#departments {
+    display: none;
+}
+#button-group {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #A81F9D;
+}
+.switch-buttons {
+    margin: none;
+    background: transparent;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.switch-buttons:focus {
+    outline: none;
+}
+#rectangle {
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.15s;
+}
+#rectangle:hover {
+    border: 2px solid black;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.70)!important;
+    transition: 0.15s;
+}
+#exec-content {
+    text-align: center;
+}
+#exec-photo {
+    width: 100%;
+    height: auto;
+}
+#individual {
+    width: 50%;
+    padding: 20px;
+}
+#exec-title {
+    padding-bottom: 0px;
+    font-size: 8pt;
+    margin-block-end: 0px;
+}
+#president {
+    width: 100%;
+    padding: 20px;
+}
+#president-photo {
+    width: 30%;
+    height: auto;
+}
+#president-content {
+    width: 70%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#individual-dep {
+    padding: 20px;
+}
+#dep-content {
+    width: 50%;
+    text-align: center;
+    padding-right: 20px;
+}
+#dep-photo {
+    width: 50%;
+    height: auto;
+}
+h1 {
+    margin-bottom: 0px;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.20)!important;
+}
+#president-text {
+    margin-bottom: 0px;
+}
+#departments-text {
+    text-align: center;
+    padding-top: 50px;
+}
+#buttons {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #A81F9D;
+    color: white;
+    transition: 0.25s;
+    text-decoration: none;
+}
+#buttons:hover {
+    background-color: #C13EB2;
+    transition: 0.25s;
+}
+@media (max-width: 1100px) {
+    #exec-text {
+        width: 100%;
+    }
+    #exec-photo-div{
+        width: 100%;
+    }
+    #president-content {
+        width: 100%;
+    }
+    #president-photo {
+        width: 100%;
+    }
+    #individual {
+        width: 100%;
+    }
+    #dep-content {
+        width: 100%;
+    }
+    #dep-photo {
+        width: 100%;
+    }
+}

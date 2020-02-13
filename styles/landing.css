@@ -1,0 +1,104 @@
+#masthead{
+    height: 100vh;
+  }
+  #masthead-banner{
+    opacity: 1.0;
+    height: 100%;
+    width: auto;
+  }
+  #banner-gradient{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #logo{
+    width:350px;
+    height:350px;
+  }
+  #masthead-title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+  }
+  #nav-button {
+    border: 2px solid rgb(255, 228, 182);
+    font-family: 'Dancing Script', cursive;
+    font-size: 14pt;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.25s;
+  }
+  #nav-button:focus {
+    box-shadow: none;
+  }
+  #dropdown-button {
+    transition: 0.25s;
+    padding: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    border: 2px; 
+    background-color: rgb(255, 228, 182);
+    border-radius: 10px;
+  }
+  #dropdown-button:hover {
+    transition: 0.25s;
+    background-color: rgb(255, 243, 224);
+  }
+  #nav-button:hover {
+    transition: 0.25s;
+    background-color: rgb(255, 243, 224);
+  }
+  #nav-dropdown-button { 
+    border-radius: 5px;
+  }
+  #nav-dropdown-button:focus {
+    outline:none;
+  }
+  .overflow-hidden{
+    overflow: hidden;
+  }
+  .position-relative{
+    position: relative;
+  }
+  .section-row{
+    height:20vh;
+  }
+  .dropdown {
+    transition: 1s;
+  }
+  #content-img{
+    height: 100%;
+    width: 100%;
+  }
+  #sales-banner{
+    width: 100%;
+    height: auto;
+  }
+  #buttons {
+    justify-content: center;
+    margin: auto;
+    text-align: right;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #A81F9D;
+    color: white;
+    transition: 0.25s;
+    text-decoration: none;
+}
+#buttons:hover {
+    background-color: #C13EB2;
+    transition: 0.25s;
+}
+.resize_fit_center {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: auto;
+    max-height: 100%; 
+}
+  
