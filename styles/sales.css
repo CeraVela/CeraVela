@@ -49,6 +49,7 @@
     background-color: white;
     border: 1px solid black;
     transition: 0.15s;
+    min-width: 350px;
 }
 #rectangle:hover {
     border: 2px solid black;
