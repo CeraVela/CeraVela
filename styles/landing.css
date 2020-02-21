@@ -1,10 +1,16 @@
 #masthead{
-    height: 100vh;
+    height: 75vh;
   }
   #masthead-banner{
     opacity: 1.0;
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
+  }
+  @media (max-width: 1350px) {
+    #masthead-banner {
+      height: 100%;
+      width: auto;
+    }
   }
   #banner-gradient{
     position: absolute;
