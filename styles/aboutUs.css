@@ -17,6 +17,11 @@
     border: 2px solid black;
     border-radius: 20px;
     background-color: #A81F9D;
+    transition: 0.25s;
+}
+#button-group:hover {
+    background-color: #C13EB2;
+    transition: 0.25s;
 }
 .switch-buttons {
     margin: none;

@@ -1,0 +1,12 @@
+#buttons {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #df9800;
+    color: white;
+    transition: 0.25s;
+    text-decoration: none;
+}
