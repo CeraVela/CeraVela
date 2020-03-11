@@ -30,7 +30,7 @@
     font-variant: normal;
   }
   #nav-button {
-    border: 2px solid rgb(255, 228, 182);
+    border: 2px solid rgb(255, 206, 236);
     font-family: 'Dancing Script', cursive;
     font-size: 14pt;
     border-radius: 10px;
@@ -46,16 +46,16 @@
     font-family: 'Dancing Script', cursive;
     font-size: 18px;
     border: 2px; 
-    background-color: rgb(255, 228, 182);
+    background-color: rgb(255, 233, 247);
     border-radius: 10px;
   }
   #dropdown-button:hover {
     transition: 0.25s;
-    background-color: rgb(255, 243, 224);
+    background-color: rgb(255, 233, 247);
   }
   #nav-button:hover {
     transition: 0.25s;
-    background-color: rgb(255, 243, 224);
+    background-color: rgb(255, 233, 247);
   }
   #nav-dropdown-button { 
     border-radius: 5px;
@@ -90,13 +90,14 @@
     justify-content: center;
     margin: auto;
     text-align: right;
-    border: 2px solid black;
     border-radius: 20px;
     padding: 20px;
-    background-color: #A81F9D;
-    color: white;
+    background-color: white;
+    color: black;
     transition: 0.25s;
     text-decoration: none;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
 }
 #buttons:hover {
     background-color: #C13EB2;
