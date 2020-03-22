@@ -1,0 +1,232 @@
+#home {
+    background-color: white;
+  }
+  #masthead{
+    background: transparent;
+    text-align: center;
+      position: relative;
+      height: 90vh;
+    }
+    #masthead-banner{
+      opacity: 1.0;
+      width: 100%;
+      transform: rotate(180deg);
+    }
+    #banner-gradient{
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    #logo{
+      width:350px;
+      height:350px;
+    }
+    #masthead-title{
+      font-family: 'Dancing Script', cursive;
+      font-size: 80px;
+      font-weight: 700;
+      text-decoration: none;
+      font-style: normal;
+      font-variant: normal;
+    }
+    #nav-button {
+      font-family: 'Dancing Script', cursive;
+      font-size: 20pt;
+      border-radius: 10px;
+      padding: 20px;
+      transition: 0.25s;
+    }
+    #nav-button:focus {
+      box-shadow: none;
+    }
+    #dropdown-button {
+      transition: 0.25s;
+      padding: 20px;
+      font-family: 'Dancing Script', cursive;
+      font-size: 18px;
+      border: 2px; 
+      background-color: #E6AE7B;
+      border-radius: 10px;
+    }
+    #dropdown-button:hover {
+      transition: 0.25s;
+      background-color: rgb(255, 232, 210);
+    }
+    #nav-button:hover {
+      transition: 0.50s;
+      background-color: #E6AE7B;
+    }
+    #nav-dropdown-button { 
+      border-radius: 5px;
+    }
+    #nav-dropdown-button:focus {
+      outline:none;
+    }
+    .overflow-hidden{
+      overflow: hidden;
+    }
+    .position-relative{
+      position: relative;
+    }
+    .section-row{
+      height:20vh;
+    }
+    .dropdown {
+      transition: 1s;
+    }
+    .navbar-brand {
+      margin-right: none;
+    }
+    #content-img{
+      height: 100%;
+      width: 100%;
+    }
+    #sales-banner{
+      width: 100%;
+      height: auto;
+    }
+    #buttons {
+      justify-content: center;
+      margin: auto;
+      text-align: right;
+      border-radius: 20px;
+      padding: 20px;
+      background-color: white;
+      border: 2px solid black;
+      color: black;
+      transition: 0.25s;
+      text-decoration: none;
+      font-size: 20px;
+      font-family: 'Dancing Script', cursive;
+      font-weight: bold;
+  }
+  #buttons:hover {
+      background-color: #C13EB2;
+      transition: 0.25s;
+  }
+  .resize_fit_center {
+    position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      width: auto;
+      max-height: 100%; 
+  }
+  #company-name {
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: 50px;
+    left: 15%;
+    font-size: 100px;
+    color: white;
+  }
+  #slogan {
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: 200px;
+    left: 5%;
+    color: white;
+    font-size: 70px;
+  }
+  #sales-photo-1, #sales-photo-2, #sales-photo-3 {
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    transition: 0.5s;
+    border-radius: 5px;
+  }
+  #sales-photo-1:hover, #sales-photo-2:hover, #sales-photo-3:hover {
+    width: 33%;
+    transition: 0.5s;
+  }
+  @media (max-width: 600px) {
+    #sales-photo-2, #sales-photo-3 {
+      display: none;
+      transition: 0s;
+    }
+    #sales-photo-1 {
+      width: 100%;
+      transition: 0s;
+    }
+    #sales-photo-1:hover {
+      width: 100%;
+    }
+  }
+  .to-change {
+    text-align: center;
+  }
+  #company {
+    margin: auto;
+    width: 90%;
+    height: auto;
+    transition: 0.5s;
+    border-radius: 5px;
+  }
+  #company:hover {
+    width: 95%;
+    transition: 0.5s;
+  }
+  #rectangle {
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.15s;
+    min-width: 350px;
+}
+#rectangle:hover {
+    border: 2px solid black;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.70)!important;
+    transition: 0.15s;
+}
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.20)!important;
+}
+
+
+#special {
+    width: 100%;
+    padding: 20px;
+}
+
+
+.module {
+    text-align: center;
+}
+
+.navbar-brand-photos {
+    height: 100px;
+    transition: 0.5s;
+}
+.navbar-brand-photos:hover {
+    height: 125px;
+    width: auto;
+    transition: 0.5s;
+}
+#gmail-circle {
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    background-color: white; 
+    padding: 5px; 
+    padding-top: 9px;
+}
+#gmail-circle:hover {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.70)!important;
+}
+.show-on-scroll {
+    text-align: center;
+}
+
+.come-in {
+    transform: translateY(150px);
+    animation: come-in 0.8s ease forwards;
+  }
+  .come-in:nth-child(odd) {
+    animation-duration: 0.6s; /* So they look staggered */
+  }
+  
+  @keyframes come-in {
+    to { transform: translateY(0); }
+  }

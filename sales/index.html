@@ -5,21 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="../styles/index.css"></link>
     <link rel="stylesheet" href="../styles/sales.css"></link>
-    <link rel="stylesheet" href="../styles/landing.css"></link>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lobster|Pacifico&display=swap" rel="stylesheet"></link>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"></link>
     <link href="../styles/social-icons.css" rel="stylesheet"></link>
     <link rel="icon" href="../resources/images/CeraVela.png" type="image/icon type">
     <title>CeraVela</title>
+    <style>
+        body {
+            height: 1200px;
+            width: auto;
+            background: url(../resources/images/IMG_1644.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
     <!-- Navbar-->
     <section id="navigation">
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(255, 206, 236); padding: 0px;">
+        <nav class="navbar navbar-expand-lg navbar-light" style="padding: 0px;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img src="../resources/images/CeraVela.png" style="width: auto; height: 50px;"></img></a>
-                <a class="navbar-brand" href="../aboutUs/aboutJA.html"><img src="../resources/images/JuniorAchievement.png" style="width: auto; height: 30%; max-height: 50px;"></img></a>
+                <a class="navbar-brand" href="../index.html"><img class="navbar-brand-photos"  src="../resources/images/CeraVela.png"></img></a>
+                <a class="navbar-brand" href="../aboutUs/aboutJA.html"><img class="navbar-brand-photos" src="../resources/images/JuniorAchievement.png"></img></a>
                 <button id="nav-dropdown-button"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -27,7 +37,7 @@
                     <ul class="navbar-nav" style="margin-left:auto; margin-right:0;">
                         <li class="nav-item dropdown" style="padding-right: 20px;">
                             <div class="btn-group">
-                                <a class="btn" id="nav-button" type="button" href="#" style="color: black;">Flora Vela</a>
+                                <a class="btn" id="nav-button" type="button" href="#" style="color: white;">Flora Vela</a>
                                 <!--<a class="nav-link btn dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>-->
                             </div>
                             <!--<div class="dropdown-menu aria-labelledby="navbarDropdown">
@@ -38,17 +48,17 @@
                         </li>
                         <li class="nav-item dropdown" style="padding-right: 20px;">
                             <div class="btn-group">
-                                <a class="btn" id="nav-button" type="button" href="../aboutUs/index.html" style="color: black;">About Us</a>
+                                <a class="btn" id="nav-button" type="button" href="../aboutUs/index.html" style="color: white;">About Us</a>
                                 <!--<a class="nav-link btn dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a> -->
                             </div>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="padding: 0px; background-color: rgb(255, 233, 247); border: 1px solid black; border-radius: 10px;">
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="padding: 0px; background-color:rgb(247, 230, 207); border: 1px solid black; border-radius: 10px;">  
                                 <a class="dropdown-item" id="dropdown-button" style="margin-bottom: 5px; color: black;" href="../aboutUs/aboutJA.html">About Junior Achievement</a>
                                 <a class="dropdown-item" id="dropdown-button" style="color: black;" href="../aboutUs/aboutIGWM.html">About IG Wealth Management</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown"  style="padding-right: 20px;">
                             <div class="btn-group">
-                                <a class="btn" id="nav-button" type="button" href="../contactUs/index.html" style="color: black;">Contact Us</a>
+                                <a class="btn" id="nav-button" type="button" href="https://ceravela.myshopify.com" style="color: white;">Contact Us</a>
                                 <!--<a class="nav-link btn dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a> -->
                             </div>
                             <!--<div class="dropdown-menu aria-labelledby="navbarDropdown">
@@ -63,6 +73,9 @@
         </nav>
     </section>
     <!--Main Content-->
+    <section id="masthead" class="container-fluid">
+        <h1 id="sales-banner-text">Flora Vela</h1>
+    </section>
     <section id="home">
         <!--<div class="container-fluid px-0 shadow overflow-hidden" id="sales-homepage-banner" style="height: 800px">
             <picture>
@@ -79,11 +92,7 @@
                 </div>
             </div>
         </div>-->
-        <div class="container-fluid px-0 shadow overflow-hidden" id="sales-homepage-banner" style="position: relative;">
-            <picture>
-                <source class="sales-hmpg-banner" id="sales-banner" media="(min-width: 900px)" srcset="../resources/images/IMG_1644.jpg">
-                <img class="sales-hmpg-banner" id="sales-banner" src="../resources/images/IMG_1644.jpg" alt="IfItDoesntMatchAnyMedia">
-            </picture>
+        <!--<div class="container-fluid px-0 shadow overflow-hidden" id="sales-homepage-banner" style="position: relative; height: 90vh;">
             <div style="position:absolute; top:25%; left:0%; height:100%; width:100%;">
                 <div class="container-fluid">
                     <div class="row align-items-center">
@@ -93,7 +102,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         <div class="container-fluid" style="padding-top: 3em;">
             <h1 id="sales-text" style="font-family: 'Dancing Script', cursive; font-weight: bold;">Bringing Bright Smiles</h1>
             <h3 id="sales-text" style="font-family: 'Dancing Script', cursive; font-weight: bold;">Giving the gift of Flora Vela to your loved ones will make them light up</h3> 
@@ -101,21 +110,21 @@
         <div class="row">
             <div class="col-2"></div>
             <div class="col-8">
-                <div id="special">
-                        <div class="shadow row" id="rectangle">
-                            <div id="special-text">
-                                <h1>Perfect Valentine's Day Gift</h1>
-                                <p>
-                                    A flower and a candle are both common items on a table during date night. Combine the two and you get our newest product, Flora Vela, specially made for Valentine's Day. This flower-shaped candle is a perfect gift to give as a token of love and gratitude for the ones that mean the most to you.
-                                </p>
-                            </div>
-                            <div id="special-selling-point-img">
-                                <img id="special-photo" src="../resources/images/4463352D-AD3D-4635-AFA9-2190C3D89B86.jpg"></img>
-                            </div>
+                <div id="special" class="module">
+                    <div class="shadow row" id="rectangle">
+                        <div id="special-text">
+                            <h1>The Perfect Gift For Any Occasion </h1>
+                            <p>
+                                Cera Vela features a one of a kind product; Flora Vela. Flora Vela candle sets are colourful, handcrafted flower-shaped candles with aromatherapy scents such as jasmine, vanilla, and rose to support wellness and add the perfect ambiance to every room.
+                            </p>
+                        </div>
+                        <div id="special-selling-point-img">
+                            <img id="special-photo" src="../resources/images/4463352D-AD3D-4635-AFA9-2190C3D89B86.jpg"></img>
                         </div>
                     </div>
+                </div>
                 <div class="container-fluid row" style="padding-top: 0px;">
-                    <div id="sales-content">
+                    <div id="sales-content" class="module">
                         <div class="shadow" id="rectangle">
                             <div id="sales-text">
                                 <h1>Aromatic</h1>
@@ -126,7 +135,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="sales-content">
+                    <div id="sales-content" class="module">
                             <div class="shadow" id="rectangle">
                                 <div id="sales-text">
                                     <h1>Environmentally Sustainable</h1>
@@ -137,7 +146,7 @@
                                 </div>
                             </div>
                         </div>
-                    <div id="sales-content">
+                    <div id="sales-content" class="module">
                         <div class="shadow" id="rectangle">
                             <div id="sales-text">
                                 <h1>Handcrafted</h1>
@@ -148,7 +157,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="sales-content">
+                    <div id="sales-content" class="module">
                         <div class="shadow" id="rectangle">
                             <div id="sales-text">
                                 <h1>Colourful</h1>
@@ -160,7 +169,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="special">
+                <div id="special" class="module">
                     <div class="shadow row" id="rectangle">
                         <div id="special-text" style="margin-bottom: 20px;">
                             <h1>Support Local Youth Entrepreneurs</h1>
@@ -186,7 +195,8 @@
                 <div style="padding-right: 10px;">
                     <a href="https://www.instagram.com/ceravela/" class="fa fa-instagram"></a>
                 </div>
-                <a href="#" class="fa fa-youtube"></a>
+                <a href="https://www.youtube.com/channel/UC4FfMUWNmvH8qrtokdPN0Zg" class="fa fa-youtube" style="margin-right: 10px;"></a>
+                <div id="gmail-circle"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=ceravelaja2020@gmail.com" class="fa fa-gmail gmail" style="color: #E41F1A;"></a></div>
             </div>
             <div class="col-8" style="text-align: end;">
                 @2020 Copyright by CeraVela, a JA Company
@@ -199,5 +209,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://ceravela.github.io/scripts/index.js"></script>
     <script src="https://ceravela.github.io/scripts/salesContent.js"></script>
+    <script src="../scripts/show-on-scroll.js"></script>
 </body>
 </html>

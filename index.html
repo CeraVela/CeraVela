@@ -5,21 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"></link>
-    <link rel="stylesheet" href="styles/landing.css"></link>
+    <link rel="stylesheet" href="styles/index.css"></link>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lobster|Pacifico&display=swap" rel="stylesheet"></link>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"></link>
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"></link>
     <link href="styles/social-icons.css" rel="stylesheet"></link>
     <link rel="icon" href="resources/images/CeraVela.png" type="image/icon type">
     <title>CeraVela</title>
+    <style>
+        body {
+            height: 792px;
+            width: auto;
+            background: url(resources/images/IMG_1886.JPG);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
     <!-- Navbar-->
     <section id="navigation">
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(255, 206, 236); padding: 0px;">
+        <nav class="navbar navbar-expand-lg navbar-light" style="padding: 0px;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="resources/images/CeraVela.png" style="width: auto; height: 75px;"></img></a>
-                <a class="navbar-brand" href="aboutUs/aboutJA.html"><img src="resources/images/JuniorAchievement.png" style="width: auto; height: 30%; max-height: 50px;"></img></a>
+                <a class="navbar-brand" href="#"><img class="navbar-brand-photos" src="resources/images/CeraVela.png"></img></a>
+                <a class="navbar-brand" href="aboutUs/aboutJA.html"><img class="navbar-brand-photos" src="resources/images/JuniorAchievement.png"></img></a>
                 <button id="nav-dropdown-button"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -27,7 +37,7 @@
                     <ul class="navbar-nav" style="margin-left:auto; margin-right:0;">
                         <li class="nav-item dropdown" style="padding-right: 20px;">
                             <div class="btn-group">
-                                <a class="btn" id="nav-button" type="button" href="sales/index.html" style="color: black;">Flora Vela</a>
+                                <a class="btn" id="nav-button" type="button" href="sales/index.html" style="color: white;">Flora Vela</a>
                                 <!--<a class="nav-link btn dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>-->
                             </div>
                             <!--<div class="dropdown-menu aria-labelledby="navbarDropdown">
@@ -38,17 +48,17 @@
                         </li>
                         <li class="nav-item dropdown" style="padding-right: 20px;">
                             <div class="btn-group">
-                                <a class="btn" id="nav-button" type="button" href="aboutUs/index.html" style="color: black;">About Us</a>
+                                <a class="btn" id="nav-button" type="button" href="aboutUs/index.html" style="color: white;">About Us</a>
                                 <!--<a class="nav-link btn dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a> -->
                             </div>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="padding: 0px; background-color:rgb(255, 233, 247); border: 1px solid black; border-radius: 10px;">  
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="padding: 0px; background-color:#E6AE7B; border: 1px solid black; border-radius: 10px;">  
                                 <a class="dropdown-item" id="dropdown-button" style="margin-bottom: 5px; color: black;" href="aboutUs/aboutJA.html">About Junior Achievement</a>
                                 <a class="dropdown-item" id="dropdown-button" style="color: black;" href="aboutUs/aboutIGWM.html">About IG Wealth Management</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown"  style="padding-right: 20px;">
                             <div class="btn-group">
-                                <a class="btn" id="nav-button" type="button" href="contactUs/index.html" style="color: black;">Contact Us</a>
+                                <a class="btn" id="nav-button" type="button" href="https://ceravela.myshopify.com" style="color: white;">Buy our product</a>
                                 <!--<a class="nav-link btn dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a> -->
                             </div>
                             <!--<div class="dropdown-menu aria-labelledby="navbarDropdown">
@@ -63,8 +73,10 @@
         </nav>
     </section>
     <!-- Landing page-->
-    <section id="masthead">
-        <div class="container-fluid px-0 shadow h-100">
+    <section id="masthead" class="container-fluid">
+        <h1 id="company-name">CeraVela</h1>
+        <h1 id="slogan">To Bring Bright Smiles</h1>
+        <!--<div class="container-fluid px-0 shadow h-100">
             <div class="row h-100 mx-0 overflow-hidden">
                 <div class="col-7 px-0 h-100 bg-secondary" id="masthead-banner-div">
                     <div class="position-relative h-100 overflow-hidden">
@@ -78,45 +90,43 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
     </section>
     <!-- Content-->
-    <section id="home">
-        <div class="container-fluid">
-            <div class="row py-3 overflow-hidden">
-                <div class="col-4">
-                    <img id="content-img" src="resources/images/landingProducts.jpg"></img>
+    <section id="home" style="padding-top: 20px;">
+        <div id="special" class="module" style="width: 80%; margin: auto;">
+            <div class="shadow" id="rectangle">
+                <h1>FloraVela</h1>
+                <p>CeraVela’s candles are the perfect gift for loved ones or even yourself everytime! Our handcrafted scented candles offer authenticity and serenity to light up every household! Click the button below to learn more!</p>
+                <div class="row">
+                    <img id="sales-photo-1" src="resources/images/landingProducts.jpg"></img>
+                    <img id="sales-photo-2" src="resources/images/landingProducts2.jpg"></img>
+                    <img id="sales-photo-3" src="resources/images/4463352D-AD3D-4635-AFA9-2190C3D89B86.jpg"></img>
                 </div>
-                <div class="col-8">
-                    <p>Why not give a Valentine's Day classic to your loved ones? This time, with a twist. Our scented flower shaped candles will bring the authenticity of Valentine's Day with a pleasant aroma as the cherry on top! Click the button below to learn more!
-                    </p>
-                    <a class="btn btn-default" id="buttons" href="sales/index.html">Learn More</a>
-                </div>
-            </div> 
+                <a style="margin-top: 20px; display: inline-block;" id="buttons" href="sales/index.html">Learn More</a>
+            </div>
         </div>
-        <div class="container-fluid">
-            <div class="row py-3 overflow-hidden">
-                <div class="col-8">
-                    <p>Here at CeraVela, we love to know our customers. To start any relationship, someone needs to take the first step. We have taken it upon ourselves to do so. Find out more about our lovely company by clicking the "Learn More" button below.
-                    </p>
-                    <a class="btn btn-default" id="buttons" href="aboutUs/index.html">Learn More</a>
+
+        <div id="special" class="module" style="width: 80%; margin: auto;">
+            <div class="shadow" id="rectangle">
+                <h1>CeraVela</h1>
+                <p>Here at CeraVela, we love to know our customers. To start any relationship, someone needs to take the first step. We have taken it upon ourselves to do so. Find out more about our lovely company by clicking the button below!</p>
+                <div class="row">
+                    <img id="company" src="resources/images/company.jpg"></img>
                 </div>
-                <div class="col-4">
-                    <img id="content-img" src="resources/images/company.jpg"></img>
-                </div>
-            </div> 
+                <a style="margin-top: 20px; display: inline-block;" id="buttons" href="aboutUs/index.html">Learn More</a>
+            </div>
         </div>
-        <div class="container-fluid">
-            <div class="row py-3 overflow-hidden">
-                <div class="col-4">
-                    <img id="content-img" src="resources/images/sm.jpg"></img>
+
+        <div id="special" class="module" style="width: 80%; margin: auto;">
+            <div class="shadow" id="rectangle">
+                <h1>Online Purchasing</h1>
+                <p>Recent global events have made it extremely difficult for us to sell our products to you in person. This is why we have created an online store for you to buy our products off of. Click the button below to visit!</p>
+                <div class="row">
+                    <img id="company" src="resources/images/webstore.PNG"></img>
                 </div>
-                <div class="col-8">
-                    <p>Social media is a wonderful thing that allows people to connect from the comfort of their own homes. It also allows us to keep in touch with you and keep you posted on any updates that our company has. Click "Learn More" to see how you can contact us!
-                    </p>
-                    <a class="btn btn-default" id="buttons" href="contactUs/index.html">Learn More</a>
-                </div>
-            </div> 
+                <a style="margin-top: 20px; display: inline-block;" id="buttons" href="https://ceravela.myshopify.com">Visit Shop</a>
+            </div>
         </div>
     </section>
     <!--Footer-->
@@ -127,8 +137,8 @@
                 <div style="padding-right: 10px;">
                     <a href="https://www.instagram.com/ceravela/" class="fa fa-instagram"></a>
                 </div>
-                <a href="#" class="fa fa-youtube"></a>
-                <a href="https://www.google.ca" class="fa"><img src="https://img.icons8.com/ios/50/000000/tiktok.png"></img></a>
+                <a href="https://www.youtube.com/channel/UC4FfMUWNmvH8qrtokdPN0Zg" class="fa fa-youtube" style="margin-right: 10px;"></a>
+                <div id="gmail-circle"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=ceravelaja2020@gmail.com" class="fa fa-gmail gmail" style="color: #E41F1A;"></a></div>
             </div>
             <div class="col-8" style="text-align: end;">
                 @2020 Copyright by CeraVela, a JA Company
@@ -140,5 +150,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://ceravela.github.io/scripts/index.js"></script>
+    <script src="scripts/show-on-scroll.js"></script>
 </body>
 </html>

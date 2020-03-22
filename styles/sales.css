@@ -3,8 +3,9 @@
     height: auto;
 }
   #sales-banner-text{
+      margin-top: 200px;
       font-size: 8vw;
-      font-weight: bold;
+      font-weight: bold;    
       font-family: 'Dancing Script', cursive;
   }
   #sales-text{
@@ -30,7 +31,7 @@
       width: 60%;
   }
   #special-selling-point-img {
-      width: 40%;
+      width: 50%;
   }
   .sales-pictures{
       width: 100%;
@@ -64,7 +65,7 @@
     height: auto;
 }
 #special-text {
-    width: 60%;
+    width: 50%;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
@@ -104,4 +105,14 @@
   .row {
       margin-right: 0px;
       margin-left: 0px;
+  }
+
+  #nav-button:hover {
+      background-color: rgb(247, 230, 207);
+  }
+  #dropdown-button {
+      background-color: rgb(247, 230, 207);
+  }
+  #dropdown-button:hover {
+      background-color: rgb(255, 250, 242);
   }

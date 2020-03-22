@@ -9,9 +9,6 @@
   }
   
   /* Add a hover effect if you want */
-  .fa:hover {
-    background-color: white;
-  }
   a:hover {
     text-decoration: none;
   }
@@ -62,3 +59,48 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
     color: red;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.70)!important;
   }
+
+  .fa-gmail {
+    background-color: #E41F1A;
+    color: white;
+  }
+  .fa-gmail:hover{
+    color: #E41F1A;
+  }
+  #gmail-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #E41F1A;
+    position: absolute;
+    margin: auto;
+}
+.gmail{
+  background:#E41F1A;
+  width:30px;
+  height:20px;
+  border-radius:4px;
+  position: relative;
+}
+.gmail:after{
+  content:'';
+  position:absolute;
+  left:4px;
+  top:5.5px;
+  border-bottom:8.5px solid #E8E6D6;
+  border-left:11px solid #E8E6D6;
+  border-right:11px solid #9B9C91;
+  border-top:6px solid transparent;
+  width:0;
+}
+.gmail:before{
+  content:'';
+  position:absolute;
+  left:3.5px;
+  top:0px;
+  border-top:6.5px solid #E8E6D6;
+  border-left:11.5px solid transparent;
+  border-right:11.5px solid transparent;
+  width:0;
+}

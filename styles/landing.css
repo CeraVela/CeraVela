@@ -1,16 +1,16 @@
+#home {
+  background-color: white;
+}
 #masthead{
-    height: 75vh;
+  background: transparent;
+  text-align: center;
+    position: relative;
+    height: 90vh;
   }
   #masthead-banner{
     opacity: 1.0;
-    height: auto;
     width: 100%;
-  }
-  @media (max-width: 1350px) {
-    #masthead-banner {
-      height: 100%;
-      width: auto;
-    }
+    transform: rotate(180deg);
   }
   #banner-gradient{
     position: absolute;
@@ -30,9 +30,8 @@
     font-variant: normal;
   }
   #nav-button {
-    border: 2px solid rgb(255, 206, 236);
     font-family: 'Dancing Script', cursive;
-    font-size: 14pt;
+    font-size: 20pt;
     border-radius: 10px;
     padding: 20px;
     transition: 0.25s;
@@ -46,16 +45,16 @@
     font-family: 'Dancing Script', cursive;
     font-size: 18px;
     border: 2px; 
-    background-color: rgb(255, 233, 247);
+    background-color: #E6AE7B;
     border-radius: 10px;
   }
   #dropdown-button:hover {
     transition: 0.25s;
-    background-color: rgb(255, 233, 247);
+    background-color: rgb(255, 232, 210);
   }
   #nav-button:hover {
-    transition: 0.25s;
-    background-color: rgb(255, 233, 247);
+    transition: 0.50s;
+    background-color: #E6AE7B;
   }
   #nav-dropdown-button { 
     border-radius: 5px;
@@ -111,4 +110,55 @@
     width: auto;
     max-height: 100%; 
 }
-  
+#company-name {
+  font-family: 'Dancing Script', cursive;
+  position: absolute;
+  top: 50px;
+  left: 15%;
+  font-size: 100px;
+  color: white;
+}
+#slogan {
+  font-family: 'Dancing Script', cursive;
+  position: absolute;
+  top: 200px;
+  left: 5%;
+  color: white;
+  font-size: 70px;
+}
+#sales-photo-1, #sales-photo-2, #sales-photo-3 {
+  width: 30%;
+  height: 100%;
+  margin: auto;
+  transition: 0.5s;
+}
+#sales-photo-1:hover, #sales-photo-2:hover, #sales-photo-3:hover {
+  width: 33%;
+  transition: 0.5s;
+}
+@media (max-width: 600px) {
+  #sales-photo-2, #sales-photo-3 {
+    display: none;
+    transition: 0s;
+  }
+  #sales-photo-1 {
+    width: 100%;
+    transition: 0s;
+  }
+  #sales-photo-1:hover {
+    width: 100%;
+  }
+}
+.to-change {
+  text-align: center;
+}
+#company {
+  margin: auto;
+  width: 90%;
+  height: auto;
+  transition: 0.5s;
+}
+#company:hover {
+  width: 95%;
+  transition: 0.5s;
+}
