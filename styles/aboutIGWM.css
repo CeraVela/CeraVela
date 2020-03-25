@@ -8,10 +8,17 @@
     background-color: #A0CFEB;
 }
 
-@media (min-width: 2000px) {
+@media (min-width: 1500px) {
     footer {
         position: absolute;
         bottom: 0px;
         width: 100%;
     }
 } 
+@media (min-height: 860px) {
+    footer {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+}
