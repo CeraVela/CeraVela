@@ -166,3 +166,10 @@ h1 {
 #dropdown-button:hover {
     background-color: rgb(255, 232, 208);
 }
+
+#execs {
+    transition: 0.5s;
+}
+#departments {
+    transition: 0.5s;
+}

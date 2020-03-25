@@ -7,3 +7,11 @@
 #dropdown-button:hover {
     background-color: #24bb72;
 }
+
+@media (min-width: 2000px) {
+    footer {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+} 
